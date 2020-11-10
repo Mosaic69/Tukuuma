@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tukuuma</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="image-002.png" alt="logo" id="headerLogo">Tukuuma</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active text-center" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-center" href="#us">About Us</a>
+                <a class="nav-item nav-link text-center" href="#whatWeDo">What We Do</a>
+                <a class="nav-item nav-link text-center" href="#gallery">Images</a>
+                <a class="nav-item nav-link text-center" href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <aside class="p-3">
+        <span class="hide">Follow Us:</span>
+        <i class='bx bxl-facebook-circle bx-rotate-270'></i>
+        <i class='bx bxl-twitter bx-rotate-270'></i>
+        <i class='bx bxl-linkedin-square bx-rotate-270' ></i>
+        <i class='bx bxl-instagram-alt bx-rotate-270' ></i>
+    </aside>
+    <main class="container">
+        <section class="landing my-4">
+            <img src="image-003.png" alt="logo">
+        </section>
+        
+        <section class="us display variation" id="us">
+            <h1>About Us</h1>
+            <div class="row d-flex justify-content-center align-items-center mt-3">
+                <div class="col-8 justify-content-center align-items-center text-center">
+                    <i class='bx bxs-tree bx-md'></i>
+                    <p>
+                        TUKUUMA is a youth founded initiative focused on providing lasting solutions.
+                    </p>  
+                    <i class='bx bxs-tree bx-md'></i>
+                    <p>   
+                        Our goal is to facilitate, lead and advocate for environmental conservation and sustainability through project implementation and research.
+                    </p>
+                    <i class='bx bxs-tree bx-md'></i>
+                    <p>
+                        We partner with different companies and stakeholders with a heart for environmental stewardship to implement key environmental projects in Uganda and Africa.
+                    </p>
+                    <i class='bx bxs-tree bx-md'></i>
+                    <p>
+                        Our current projects include; Entasesa tree planting project, and Clean Uganda (a sanitation, and waste disposal project engaging children (schools) to take the lead role in protecting and preserving their environment).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="whatWeDo display" id="whatWeDo">
+            <h1>What We Do</h1>
+        </section>
+
+        <section class="gallery display variation" id="gallery">
+            <h1>Images</h1>
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <a href="https://bootstrapcreative.com/">
+                            <!-- 
+                            If you need more browser support use https://scottjehl.github.io/picturefill/
+                            If a picture looks blurry on a retina device you can add a high resolution like this
+                            <source srcset="img/blog-post-1000x600-2.jpg, blog-post-1000x600-2@2x.jpg 2x" media="(min-width: 768px)">
+        
+                            What image sizes should you use? This can help - https://codepen.io/JacobLett/pen/NjramL
+                             -->
+                             <picture>
+                              <source srcset="https://dummyimage.com/2000x900/007aeb/4196e5" media="(min-width: 1400px)">
+                              <source srcset="https://dummyimage.com/1400x900/#007aeb/4196e5" media="(min-width: 769px)">
+                               <source srcset="https://dummyimage.com/800x900/007aeb/4196e5" media="(min-width: 577px)">
+                              <img srcset="https://dummyimage.com/600x900/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                            </picture>
+        
+                            <div class="carousel-caption">
+                                <div>
+                                    <h2>Digital Craftsmanship</h2>
+                                    <p>We meticously build each site to get results</p>
+                                    <span class="btn btn-sm btn-outline-secondary">Learn More</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /.carousel-item -->
+                    <div class="carousel-item">
+                        <a href="https://bootstrapcreative.com/">
+                             <picture>
+                              <source srcset="https://dummyimage.com/2000x900/007aeb/4196e5" media="(min-width: 1400px)">
+                              <source srcset="https://dummyimage.com/1400x900/007aeb/4196e5" media="(min-width: 769px)">
+                               <source srcset="https://dummyimage.com/800x900/007aeb/4196e5" media="(min-width: 577px)">
+                              <img srcset="https://dummyimage.com/600x900/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                            </picture>
+        
+                            <div class="carousel-caption justify-content-center align-items-center">
+                                <div>
+                                    <h2>Every project begins with a sketch</h2>
+                                    <p>We work as an extension of your business to explore solutions</p>
+                                    <span class="btn btn-sm btn-outline-secondary">Our Process</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /.carousel-item -->
+                    <div class="carousel-item">
+                        <a href="https://bootstrapcreative.com/">
+                             <picture>
+                              <source srcset="https://dummyimage.com/2000x900/007aeb/4196e5" media="(min-width: 1400px)">
+                              <source srcset="https://dummyimage.com/1400x900/007aeb/4196e5" media="(min-width: 769px)">
+                               <source srcset="https://dummyimage.com/800x900/007aeb/4196e5" media="(min-width: 577px)">
+                              <img srcset="https://dummyimage.com/600x900/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                            </picture>
+        
+                            <div class="carousel-caption justify-content-center align-items-center">
+                                <div>
+                                    <h2>Performance Optimization</h2>
+                                    <p>We monitor and optimize your site's long-term performance</p>
+                                    <span class="btn btn-sm btn-secondary">Learn How</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /.carousel-item -->
+                </div>
+                <!-- /.carousel-inner -->
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="partners" id="partners">
+            <h1>Our partners</h1>
+        </section>
+    </main>
+    <footer class="container">
+        <section class="contact" id="contact">
+            <h1>Contact Us</h1>
+            <div class="row d-flex justify-content-center align-items-center pt-4">
+                <div class="col-3 justify-content-center align-items-center text-center grow">
+                    <div class="contactIcons"><i class='bx bx-current-location'></i></div>
+                    <h3>Address</h3>
+                    <h3 class="mt-4">Manager</h3>
+                    <a href="mailto:example@me.com">Primary Email</a>
+                    <h3 class="mt-4">Executive Director</h3>
+                    <a href="mailto:example@me.com">Secondary Email</a>
+                    <h3 class="mt-4">Partnerships Department</h3>
+                    <a href="mailto:example@me.com">Secondary Email</a>
+                </div>
+                <div class="col-3 justify-content-center align-items-center text-center grow">
+                    <div class="contactIcons"><i class='bx bxs-phone' ></i></div>
+                    <h3>Phone</h3>
+                    <h3 class="mt-4">Manager</h3>
+                    <a href="mailto:example@me.com">Primary Email</a>
+                    <h3 class="mt-4">Executive Director</h3>
+                    <a href="mailto:example@me.com">Secondary Email</a>
+                    <h3 class="mt-4">Partnerships Department</h3>
+                    <a href="mailto:example@me.com">Secondary Email</a>
+                </div>
+                <div class="col-3 justify-content-center align-items-center text-center grow">
+                    <div class="contactIcons"><i class='bx bx-mail-send'></i></div>
+                    <h3>Email</h3>
+                    <h3 class="mt-4">Manager</h3>
+                    <a href="mailto:example@me.com">Primary Email</a>
+                    <h3 class="mt-4">Executive Director</h3>
+                    <a href="mailto:example@me.com">Secondary Email</a>
+                    <h3 class="mt-4">Partnerships Department</h3>
+                    <a href="mailto:example@me.com">Secondary Email</a>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <p class="text-center">Copyright &copy; Tukuuma 2020</p>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+</body>
+</html>
